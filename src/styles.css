@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  width: 95%;
+  margin: 15px auto;
+}
+
+.container-drag {
+  text-align: center;
+}
+
+.pending {
+  width: 150px;
+  min-height: 100vh;
+  background-color: #eeeeee;
+  border-right: 1px dotted;
+  float: left;
+}
+
+.header {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: #e0e0e0;
+  width: 100%;
+}
+
+.task-header {
+  display: inline-block;
+  background-color: skyblue;
+  width: 100%;
+}
+
+.onHold {
+  position: absolute;
+  width: 150px;
+  height: 100vh;
+  left: 150px;
+  top: 10;
+  background-color: #eeeeee;
+  border-left: 1px dotted;
+}
+
+.doing {
+  position: absolute;
+  width: 150px;
+  height: 100vh;
+  left: 300px;
+  top: 10;
+  background-color: #eeeeee;
+  border-left: 1px dotted;
+}
+
+.draggable {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin: 5px auto;
+  line-height: 5em;
+}
